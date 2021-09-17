@@ -6,7 +6,7 @@ import androidx.compose.runtime.setValue
 
 
 class GameController{
-    private val MAXSCORE = 3
+    private val MAXSCORE = 15
     private val MAXGAMES = 3
     var count by mutableStateOf(0)
     var finished by mutableStateOf(false)
